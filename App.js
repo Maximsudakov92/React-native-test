@@ -3,7 +3,6 @@ import { StyleSheet, View } from 'react-native';
 //import * as Font from 'expo-font'
 import { AppLoading } from 'expo'
 
-import { Logo } from './src/Logo'
 import { Authorization } from './src/Authorization'
 import { Login } from './src/login'
 import { OtpInput } from './src/OtpInput';
@@ -34,7 +33,10 @@ export default function App() {
   return (
     <View style={styles.wrapper}>
       <View style={styles.container}>
-        <Login />
+        <Login /> 
+        {/* <MainScreen /> */}
+        {/* <Authorization /> */}
+        {/* <OtpInput  /> */}
       </View>
     </View>
   )
